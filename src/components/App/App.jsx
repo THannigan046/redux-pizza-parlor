@@ -61,13 +61,13 @@ function App() {
         <Home />
       </Route>
       <Route path="/admin" exact>
-        <Admin getOrder={getOrder}/>
+        <Admin />
       </Route>
       <Route path="/step2" exact>
         <CustomerInfo />
       </Route>
       <Route path="/checkout">
-				<Checkout getOrder={getOrder} />
+				<Checkout  />
 			</Route>
 
 
